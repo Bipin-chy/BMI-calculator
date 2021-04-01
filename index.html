@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>BMI CALCULATOR</h2>
+        <form action="">
+            
+            <div class="gender">
+                <div class="male">
+                    <i class="fas fa-male"></i>
+                    <input type="checkbox" >
+                </div>
+                
+                <div class="female">
+                    <i class="fas fa-female"></i>
+                    
+                    <input type="checkbox" placeholder="Female">
+                </div>
+                
+            </div>
+    
+            <div class="height">
+                <div class="icon-text">
+    
+                    <h4>Height</h4>
+                </div>
+                <div class="input-box">
+                    <input type="integer" placeholder="meters" id="height-input" required>
+                </div>
+    
+            </div>
+    
+            <div class="weight">
+                <div class="icon-text">
+                    <h4>Weight</h4>
+                </div>
+                <div class="input-box">
+                    <input type="integer" placeholder="kgs" id="weight-input" required>
+                </div>
+            </div>
+    
+            <div class="btn">
+                <button>Calculate</button>
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
